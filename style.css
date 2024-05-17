@@ -8,6 +8,8 @@ body {
   height: 100hv;
   display: flex;
   background-color: #060ab2;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .memory-game {
@@ -51,4 +53,13 @@ body {
 
 .front-face {
   transform: rotateY(180deg);
+}
+
+.message {
+  text-align: center;
+  font-size: 36px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+  font-weight: bolder;
 }
